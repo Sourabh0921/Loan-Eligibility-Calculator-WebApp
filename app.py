@@ -17,9 +17,9 @@ def run():
     st.warning(
         "WARNING! Do not share your Debit/Credit card number, CVV and OTP to any fraud message or call. We are not requesting this types of information.")
     # Video intro
-    vide_file = open('media/fino.mp4', 'rb')
-    video_bytes = vide_file.read()
-    st.video(video_bytes)
+    #vide_file = open('media/fino.mp4','rb')
+    #video_bytes = vide_file.read()
+    #st.video(video_bytes)
 
     ## Account No
     account_no = st.text_input('Account Number')
